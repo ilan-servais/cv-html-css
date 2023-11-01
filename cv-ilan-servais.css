@@ -1,0 +1,110 @@
+body {
+    border-radius: 50px;
+    background: #9a3c3c;
+    box-shadow: inset -23px -23px 46px #833333,
+                inset 23px 23px 46px #b14545;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+ul li img {
+    width: 150px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.sticky-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    margin: 0;
+}
+
+.sticky-nav li {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.sticky-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.sticky-nav a:hover {
+    text-decoration: underline;
+    background-color: #555;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 100
+}
+h1#accueil-titre {
+    margin-top: 2em; /* Ajoute une marge de 2 unités d'espacement au-dessus du titre */
+}
+body
+/* Fenêtre liens */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
